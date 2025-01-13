@@ -5,9 +5,9 @@
 > Лабораторные работы по дисциплине __"Технология программирования"__
 > > бОИС-221 Глушков Д.С.
 - [x] Самостоятельная работа
-- ["Сколько до пары" (Task 1)](https://github.com/gedjien/bois221_javafx_sn/tree/prTask_NowLesson)
-- ["Погоня за фигурами" (Task 2)](https://github.com/gedjien/bois221_javafx_sn/tree/prTask_%D0%A1hase-for-figures)
-- ["Таймер времени" (Task 3)](https://github.com/gedjien/bois221_javafx_sn/tree/prTask_TimerServer)
+- ["Сколько до пары" (Task 1)](https://github.com/Proubl/lab/tree/prTask_NowLesson)
+- ["Погоня за фигурами" (Task 2)](https://github.com/Proubl/lab/tree/prTask_Chase-fir-figures)
+- ["Таймер времени" (Task 3)](https://github.com/Proubl/lab/tree/prTask_TimerServer)
 
 # "Сколько до пары"
 
