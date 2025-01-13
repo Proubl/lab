@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.microclimate.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="Добро пожаловать в Управление микроклиматом!" />
+    <Label fx:id="tickLabel" text="Тик: 0" />
+
+    <!-- Температурный датчик -->
+    <TextField fx:id="tempIntervalField" promptText="Интервал тиков для температуры" />
+    <Button fx:id="toggleTempButton" text="Отключить датчик температуры" onAction="#toggleTempSensor" />
+    <Button text="Установить интервал для температуры" onAction="#setTempInterval" />
+
+    <!-- Датчик влажности -->
+    <TextField fx:id="humidityIntervalField" promptText="Интервал тиков для влажности" />
+    <Button fx:id="toggleHumidityButton" text="Отключить датчик влажности" onAction="#toggleHumiditySensor" />
+    <Button text="Установить интервал для влажности" onAction="#setHumidityInterval" />
+
+    <!-- Датчик освещенности -->
+    <TextField fx:id="lightIntervalField" promptText="Интервал тиков для освещенности" />
+    <Button fx:id="toggleLightButton" text="Отключить датчик освещенности" onAction="#toggleLightSensor" />
+    <Button text="Установить интервал для освещенности" onAction="#setLightInterval" />
+
+    <!-- Система вентиляции -->
+    <TextField fx:id="ventilationIntervalField" promptText="Интервал тиков для вентиляции" />
+    <Button fx:id="toggleVentilationButton" text="Отключить систему вентиляции" onAction="#toggleVentilationSystem" />
+    <Button text="Установить интервал для вентиляции" onAction="#setVentilationInterval" />
+
+    <!-- Система освещения -->
+    <TextField fx:id="lightingIntervalField" promptText="Интервал тиков для освещения" />
+    <Button fx:id="toggleLightingButton" text="Отключить систему освещения" onAction="#toggleLightingSystem" />
+    <Button text="Установить интервал для освещения" onAction="#setLightingInterval" />
+
+    <Button text="Запустить симуляцию" onAction="#onStartButtonClick"/>
+</VBox>
