@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shapechasegame.controller.SettingsController">
+    <ChoiceBox fx:id="difficultyChoice" layoutX="50.0" layoutY="30.0" />
+    <ChoiceBox fx:id="movementTypeChoice" layoutX="50.0" layoutY="70.0" /> <!-- Убираем colorSchemeChoice -->
+    <Button text="Сохранить" layoutX="50.0" layoutY="150.0" onAction="#handleSave" />
+</AnchorPane>

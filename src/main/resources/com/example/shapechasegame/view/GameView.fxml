@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shapechasegame.controller.GameController">
+    <children>
+        <ImageView fx:id="backgroundImage" fitHeight="600.0" fitWidth="800.0" />
+        <Pane fx:id="gamePane" prefHeight="600.0" prefWidth="800.0">
+            <!-- Shapes will be added здесь dynamically -->
+        </Pane>
+        <Circle fx:id="player" fill="BLUE" radius="20.0" />
+        <Button text="Настройки" layoutX="10.0" layoutY="10.0" onAction="#openSettings" />
+        <Label fx:id="scoreLabel" text="Счет: 0" layoutX="700.0" layoutY="10.0" />
+        <VBox spacing="10" layoutX="10" layoutY="50">
+        </VBox>
+    </children>
+</AnchorPane>
